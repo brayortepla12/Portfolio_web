@@ -1,14 +1,11 @@
 <script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-
-import BaseNavBar from './components/BaseNavBar.vue'
-import HelloWorld from './components/HelloWorld.vue'
+import BaseNavBar from "./components/BaseNavBar.vue"
+import HelloWorld from "./components/HelloWorld.vue";
 </script>
 
 <template>
-  <BaseNavBar />
-  <HelloWorld />
+  <BaseNavBar/>
+  <HelloWorld/>
 </template>
 
 <style scoped>

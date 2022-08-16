@@ -2,7 +2,7 @@
 
 <template>
   <nav>
-    <div class="max-w-screen-2xl mx-auto px-2 sm:px-6 lg:px-8 mt-3">
+    <div class="max-w-screen-2xl mx-auto px-20 mt-3">
       <div class="relative flex items-center justify-between h-16">
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
           <button
@@ -90,7 +90,7 @@
               <button
                 id="dropdownDefault"
                 data-dropdown-toggle="dropdown"
-                class="text-gray-400 hover:text-gray-500 focus:outline-none hover:border-transparent font-medium text-base px-1 py-1 text-center inline-flex items-center"
+                class="text-gray-400 hover:text-gray-500 focus:outline-none hover:border-transparent font-medium text-sm px-1 py-1 text-center inline-flex items-center"
                 type="button"
               >
                 ES

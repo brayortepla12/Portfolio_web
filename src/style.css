@@ -1,8 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Inter');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.link{
+  @apply text-slate-800 rounded-sm px-2 py-3 hover:text-white hover:bg-zinc-800 
+}
+
+
+
+
 
 :root {
   font-family: Inter;
@@ -93,3 +101,5 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+

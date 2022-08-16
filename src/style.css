@@ -8,6 +8,9 @@
   @apply text-slate-800 rounded-sm px-2 py-3 hover:text-white hover:bg-zinc-800 
 }
 
+.my-auto {margin-top: auto; margin-bottom: auto; }
+
+
 
 
 

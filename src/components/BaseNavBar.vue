@@ -1,15 +1,23 @@
-<script setup></script>
+<script setup>
+import { ref } from 'vue'
+const toggle = ref(false)
+
+const menuToggle = () => {
+  toggle.value ? (toggle.value = false) : (toggle.value = true)
+}
+</script>
 
 <template>
   <nav>
-    <div class="max-w-screen-2xl mx-auto px-20 mt-3">
-      <div class="relative flex items-center justify-between h-16">
+    <div class="max-w-screen-2xl mx-auto mt-3">
+      <div class="relative w-11/12 mx-auto flex items-center justify-between h-16">
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
           <button
             type="button"
             class="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
             aria-controls="mobile-menu"
             aria-expanded="false"
+            @click="menuToggle"
           >
             <span class="sr-only">Open main menu</span>
             <svg
@@ -156,7 +164,7 @@
                 data-dropdown-toggle="dropdown"
                 class="text-gray-400 cursor-pointer font-medium text-sm px-1 py-1 text-center inline-flex items-center ml-2"
               >
-                <font-awesome-icon icon="fa-solid fa-sun" size="lg" />
+                <font-awesome-icon icon="fa-solid fa-sun" size="lg"/>
               </div>
               <div
                 id="dropdown"
@@ -168,7 +176,7 @@
       </div>
     </div>
 
-    <div id="mobile-menu" class="sm:hidden">
+    <div v-if="toggle" id="mobile-menu" class="sm:hidden">
       <div class="px-2 pt-2 pb-3 space-y-1">
         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
         <a

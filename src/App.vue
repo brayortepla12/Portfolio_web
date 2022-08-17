@@ -1,11 +1,19 @@
 <script setup>
-import BaseNavBar from "./components/BaseNavBar.vue"
-import HelloWorld from "./components/HelloWorld.vue";
+import BaseNavBar from './components/BaseNavBar.vue'
+import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <BaseNavBar/>
-  <HelloWorld/>
+  <div class="h-full">
+    <BaseNavBar />
+    <HelloWorld />
+  </div>
+
+  <!--   <div class="h-screen flex flex-col">
+    <div class="h-1/6"></div>
+    <div class="h-full">2</div>
+    <div class="h-1/6">3</div>
+  </div> -->
 </template>
 
 <style scoped>

@@ -10,7 +10,9 @@ const menuToggle = () => {
 <template>
   <nav>
     <div class="max-w-screen-2xl mx-auto mt-3">
-      <div class="relative w-11/12 mx-auto flex items-center justify-between h-16">
+      <div
+        class="relative w-11/12 mx-auto flex items-center justify-between h-16"
+      >
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
           <button
             type="button"
@@ -164,7 +166,7 @@ const menuToggle = () => {
                 data-dropdown-toggle="dropdown"
                 class="text-gray-400 cursor-pointer font-medium text-sm px-1 py-1 text-center inline-flex items-center ml-2"
               >
-                <font-awesome-icon icon="fa-solid fa-sun" size="lg"/>
+                <font-awesome-icon icon="fa-solid fa-sun" size="lg" />
               </div>
               <div
                 id="dropdown"

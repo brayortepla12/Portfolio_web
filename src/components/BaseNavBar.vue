@@ -100,7 +100,7 @@ const menuToggle = () => {
               <button
                 id="dropdownDefault"
                 data-dropdown-toggle="dropdown"
-                class="text-gray-400 hover:text-gray-500 focus:outline-none hover:border-transparent font-medium text-sm px-1 py-1 text-center inline-flex items-center"
+                class="text-gray-400 hidden hover:text-gray-500 focus:outline-none hover:border-transparent font-medium text-sm px-1 py-1 text-center sm:inline-flex items-center"
                 type="button"
               >
                 ES
@@ -160,7 +160,7 @@ const menuToggle = () => {
                 </ul>
               </div>
             </div>
-            <div class="flex space-x-4">
+            <div class="sm:flex space-x-4 hidden">
               <div
                 id="dropdownDefault"
                 data-dropdown-toggle="dropdown"
@@ -178,34 +178,42 @@ const menuToggle = () => {
       </div>
     </div>
 
-    <div v-if="toggle" id="mobile-menu" class="sm:hidden">
-      <div class="px-2 pt-2 pb-3 space-y-1">
+    <div
+      v-if="toggle"
+      id="mobile-menu"
+      class="sm:hidden absolute w-full h-1/2 bg-gray-900"
+    >
+      <ul class="flex flex-col justify-center items-center pt-5">
         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-        <a
-          href="#"
-          class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
-          aria-current="page"
-          >Dashboard</a
-        >
-
-        <a
-          href="#"
-          class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-          >Team</a
-        >
-
-        <a
-          href="#"
-          class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-          >Projects</a
-        >
-
-        <a
-          href="#"
-          class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-          >Calendar</a
-        >
-      </div>
+        <li class="w-full py-2 hover:bg-gray-600">
+          <a
+            href="#"
+            class="text-white hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+            >Dashboard</a
+          >
+        </li>
+        <li class="w-full py-2 hover:bg-gray-600">
+          <a
+            href="#"
+            class="text-white hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+            >Settings</a
+          >
+        </li>
+        <li class="w-full py-2 hover:bg-gray-600">
+          <a
+            href="#"
+            class="text-white hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+            >Earnings</a
+          >
+        </li>
+        <li class="w-full py-2 hover:bg-gray-600">
+          <a
+            href="#"
+            class="text-white hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+            >Sign out</a
+          >
+        </li>
+      </ul>
     </div>
   </nav>
 </template>

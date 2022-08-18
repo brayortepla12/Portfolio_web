@@ -1,58 +1,131 @@
 <script setup></script>
 
 <template>
-  <div class="">
-    <div class="max-w-screen-2xl px-5 mx-auto grid grid-cols-12 my-12">
-      <div class="col-span-7">
+  <section>
+    <div
+      class="max-w-screen-2xl relative px-5 mx-auto grid grid-cols-12 grid-rows-6 mt-10"
+    >
+      <div
+        class="col-span-12 row-span-6 md:col-span-8 md:col-start-1 md:col-end-8 lg:col-end-7"
+      >
         <div class="text-left flex flex-col justify-center h-full p-5">
-          <h4 class="text-black font-semibold text-2xl">Hello World</h4>
+          <h4 class="text-black font-semibold text-1xl">Hello World</h4>
           <h1
-            class="my_title text-4xl text-black font-bold mb-20"
+            class="my_title text-2xl md:text-2xl lg:text-3xl text-black font-bold mb-12"
           >
             Ferdina Blchett
           </h1>
           <h2
-            class="text-black font-bold text-6xl sm:text-1xl md:text-6xl lg:text-7xl xl:text-8xl mb-5"
+            class="text-black font-bold text-4xl w-7/12 md:w-8/12 sm:text-1xl md:text-5xl lg:text-6xl xl:text-7xl mb-5 z-10"
           >
             Desarrollador Web Full Stack
           </h2>
           <p
-            class="text-black lg:w-9/12 text-lg my_description mb-16"
+            class="text-black text-sm lg:w-11/12 sm:text-lg my_description mb-12"
           >
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione
             ipsam, at amet ea eos cum quam rerum molestiae eveniet ducimus
             assumenda quisquam.
           </p>
           <div
-          class="Mi_button flex justify-start sm:justify-start sm:gap-6 gap-2"
-        >
-          <a
-            class="text-black hover:text-black font-semibold sm:py-2 sm:px-5 py-1 px-4 bg-sky-200 hover:bg-sky-300 transition duration-700 rounded-xl hover:border-sky-300 border-sky-200 border-2"
-            href="#"
-            >Proyectos</a
+            class="Mi_button flex justify-start sm:justify-start sm:gap-6 gap-2"
           >
-          <a
-            class="text-black hover:text-black font-semibold sm:py-2 sm:px-5 py-1 px-4 bg-sky-200 hover:bg-sky-300 transition duration-700 rounded-xl border-2 border-sky-300 group"
-            href="#"
-            >Comencemos
-            <spam
-              class="align-middle ml-1 transition-all transform rotate-45 duration-1000 group-hover:ml-3"
-              ><font-awesome-icon icon="fa-solid fa-angle-right"
-            /></spam>
-          </a>
-        </div>
-        </div>
-        
-        
-      </div>
+            <a
+              class="inline-flex items-center px-8 py-3 hover:text-white text-white transition bg-gray-900 rounded-full shadow-lg focus:outline-none focus:ring focus:ring-yellow-400 hover:bg-gray-800"
+              href="#"
+            >
+              <span class="text-sm font-medium"> Proyectos </span>
+            </a>
 
-      <div class="col-span-5 hidden  sm:flex justify-center items-center">
-        <div class="picture ">
+            <a
+              class="inline-flex items-center px-8 py-3 text-white hover:text-white transition bg-gray-900 rounded-full shadow-lg focus:outline-none focus:ring focus:ring-yellow-400 hover:bg-gray-800 group"
+              href="#"
+            >
+              <span class="text-sm font-medium group-hover:text-white">
+                Contactame
+              </span>
+
+              <spam class="align-middle ml-1 duration-1000 group-hover:ml-3"
+                ><font-awesome-icon
+                  icon="fa-solid fa-angle-right group-hover:text-white"
+              /></spam>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-span-4 col-start-8 col-end-13 row-span-6 hidden md:flex justify-center items-center"
+      >
+        <div class="picture">
           <img class="mx-auto" src="../../src/assets/picture/foto.jpg" alt="" />
         </div>
       </div>
+      <!-- <aside class="row-span-1 col-start-1 col-end-8">
+        <div
+          class="text-black max-w-screen-2xl gap-12 p-5 flex justify-start items-center mx-auto"
+        >
+          <div class="flex justify-center items-center">
+            <img
+              class="w-12"
+              src="../../src/assets/picture/1200px-Laravel.svg.png"
+              alt=""
+            />
+          </div>
+          <div class="flex justify-center items-center">
+            <img
+              class="w-12"
+              src="../../src/assets/picture/1200px-Vue.js_Logo_2.svg.png"
+              alt=""
+            />
+          </div>
+          <div class="flex justify-center items-center">
+            <img
+              class="w-12"
+              src="../../src/assets/picture/Tailwind_CSS_Logo.svg.png"
+              alt=""
+            />
+          </div>
+          <div class="flex justify-center items-center">
+            <img
+              class="w-12"
+              src="../../src/assets/picture/javascript-logo-escudo.png"
+              alt=""
+            />
+          </div>
+          <div class="flex justify-center items-center">
+            <img
+              class="w-12"
+              src="../../src/assets/picture/1200px-HTML5_logo_and_wordmark.svg.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </aside> -->
+
+      <!-- <div class="bg-orange-100 rounded-full w-20 -p-1 absolute top-16 right-10 z-0">
+        <img src="../../src/assets/picture/1200px-Laravel.svg.png" alt="" />
+      </div>
+      <div class=" flex justify-center items-centerrounded-full w-16  absolute top-52 right-10 z-0">
+        <img class="w-10" src="../../src/assets/picture/1200px-Vue.js_Logo_2.svg.png" alt="" />
+      </div> -->
     </div>
-  </div>
+  </section>
+  <aside>
+    <div class="area bg-orange-100">
+      <ul class="circles absolute top-0 left-0 bg-slate-500 truncate w-full">
+        <li class="absolute block w-5 h-5 bg-slate-300 animate-spin-slow -mb-36 odd:bg-orange-100 odd:left-1/4 odd:w-20 odd:h-20 odd:delay-[0]">s</li>
+        <li>d</li>
+        <li>s</li>
+        <li>s</li>
+        <li>s</li>
+        <li>s</li>
+        <li>s</li>
+        <li>s</li>
+        <li>s</li>
+        <li>s</li>
+      </ul>
+    </div>
+  </aside>
 </template>
 
 <style scoped>

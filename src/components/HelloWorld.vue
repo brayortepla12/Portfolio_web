@@ -1,9 +1,11 @@
-<script setup></script>
+<script setup>
+
+</script>
 
 <template>
   <section>
     <div
-      class="max-w-screen-2xl relative px-5 mx-auto grid grid-cols-12 grid-rows-6 mt-10"
+      class="max-w-screen-2xl relative px-5 mx-auto grid grid-cols-12 grid-rows-6"
     >
       <div
         class="col-span-12 row-span-6 md:col-span-8 md:col-start-1 md:col-end-8 lg:col-end-7"
@@ -57,7 +59,7 @@
         class="col-span-4 col-start-8 col-end-13 row-span-6 hidden md:flex justify-center items-center"
       >
         <div class="picture">
-          <img class="mx-auto" src="../../src/assets/picture/foto.jpg" alt="" />
+         <!--  <img class="mx-auto" src="../../src/assets/picture/foto.jpg" alt="" /> -->
         </div>
       </div>
       <!-- <aside class="row-span-1 col-start-1 col-end-8">
@@ -109,23 +111,8 @@
         <img class="w-10" src="../../src/assets/picture/1200px-Vue.js_Logo_2.svg.png" alt="" />
       </div> -->
     </div>
+     
   </section>
-  <aside>
-    <div class="area bg-orange-100">
-      <ul class="circles absolute top-0 left-0 bg-slate-500 truncate w-full">
-        <li class="absolute block w-5 h-5 bg-slate-300 animate-spin-slow -mb-36 odd:bg-orange-100 odd:left-1/4 odd:w-20 odd:h-20 odd:delay-[0]">s</li>
-        <li>d</li>
-        <li>s</li>
-        <li>s</li>
-        <li>s</li>
-        <li>s</li>
-        <li>s</li>
-        <li>s</li>
-        <li>s</li>
-        <li>s</li>
-      </ul>
-    </div>
-  </aside>
 </template>
 
 <style scoped>

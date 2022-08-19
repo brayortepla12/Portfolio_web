@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from 'vue'
+import { ref } from "vue"
 const toggle = ref(false)
 
 const menuToggle = () => {
@@ -9,7 +9,7 @@ const menuToggle = () => {
 
 <template>
   <nav>
-    <div class="max-w-screen-2xl mx-auto mt-3">
+    <div class="max-w-screen-2xl mx-auto mt-1">
       <div
         class="relative w-11/12 mx-auto flex items-center justify-between h-16"
       >
@@ -58,19 +58,16 @@ const menuToggle = () => {
         <div
           class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-between"
         >
-          <div class="flex-shrink-0 flex items-center">
+          <div class="flex flex-col justify-center items-center">
             <img
-              class="block lg:hidden h-8 w-auto"
-              src="https://tailwindui.com/img/logos/workflow-mark.svg?color=indigo&shade=500"
+              class="hidden lg:block h-10"
+              src="../../src/assets/picture/logo dev.png"
               alt="Workflow"
             />
-            <img
-              class="hidden lg:block h-8 w-auto"
-              src="https://tailwindui.com/img/logos/workflow-mark.svg?color=indigo&shade=500"
-              alt="Workflow"
-            />
+            <span class="font-bold text-md">DEV</span>
           </div>
-          <div class="hidden sm:block sm:ml-6">
+
+          <div class="hidden sm:ml-6 sm:flex sm:justify-center sm:items-center">
             <div class="flex space-x-4">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
               <a

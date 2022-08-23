@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from "vue"
+import { ref } from 'vue'
 const toggle = ref(false)
 
 const menuToggle = () => {
@@ -58,17 +58,21 @@ const menuToggle = () => {
         <div
           class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-between"
         >
-          <div class="flex flex-col justify-center items-center">
+          <div class="flex justify-center">
             <img
-              class="hidden lg:block h-10"
+              class="hidden sm:block h-10"
               src="../../src/assets/picture/logo dev.png"
               alt="Workflow"
             />
-            <span class="font-bold text-md">DEV</span>
+            <img
+              class="sm:hidden block h-10"
+              src="../../src/assets/picture/logo dev.png"
+              alt="Workflow"
+            />
           </div>
 
           <div class="hidden sm:ml-6 sm:flex sm:justify-center sm:items-center">
-            <div class="flex space-x-4">
+            <div class="flex md:space-x-4">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
               <a
                 href="#"

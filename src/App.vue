@@ -1,17 +1,16 @@
 <script setup>
-import iconosFlotantes from "./components/iconosFlotantes.vue"
-import BaseNavBar from "./components/BaseNavBar.vue"
-import HelloWorld from "./components/HelloWorld.vue"
+/* import BaseIlustration from "./components/BaseIlustration.vue"; */
+
+import BaseNavBar from './components/BaseNavBar.vue'
+import BaseMain from './components/BaseMain.vue'
+/* import HelloWorld from './components/HelloWorld.vue' */
 </script>
 
 <template>
-  <div class="h-full">
+  <!--   <BaseIlustration></BaseIlustration> -->
     <BaseNavBar />
-    <HelloWorld />
-    <div class="">
-      <iconosFlotantes />
-    </div>
-  </div>
+    <BaseMain />
+  <!--  <HelloWorld /> -->
 </template>
 
 <style scoped>

@@ -4,16 +4,14 @@
 @tailwind components;
 @tailwind utilities;
 
-.link{
-  @apply text-slate-800 rounded-sm px-2 py-3 hover:text-white hover:bg-zinc-800 
+.link {
+  @apply text-slate-800 rounded-sm px-2 py-3 hover:text-white hover:bg-zinc-800;
 }
 
-.my-auto {margin-top: auto; margin-bottom: auto; }
-
-
-
-
-
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
 
 :root {
   font-family: Inter;
@@ -54,6 +52,9 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
+/*   background-image: url(../src/assets/picture/wickedbackground.svg);
+  background-repeat: no-repeat;
+  background-size: cover; */
   /* min-width: 320px;
   min-height: 100vh; */
 }
@@ -104,5 +105,3 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-
-

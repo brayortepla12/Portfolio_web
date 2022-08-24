@@ -3,19 +3,19 @@
 <template>
   <div class="container w-11/12 mx-auto text-black">
     <div class="flex flex-col">
-      <div class="imagen">IMAGEN</div>
+      <div class="imagen">
+        <div class="w-60 mx-auto relative">
+          <img class="" src="../assets/picture/blobanimation.svg" alt="" />
+          <img
+            class="w-9/12 absolute rounded-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+            src="../assets/picture/image_processing20200508-15758-ktsf4r.png"
+            alt=""
+          />
+          <img src="../assets/picture/" alt="">
+        </div>
+      </div>
       <div class="texto">TEXTO</div>
     </div>
   </div>
-  <div class="relative rotate-[5deg]">
-    <div
-      class="bg-orange-400  shadow-2xl h-[35rem] absolute w-full rounded-3xl rotate-[20deg] top-40 -left-2/4"
-    ></div>
-    <div
-      class="bg-orange-300 shadow-xl h-[30rem] absolute w-full rounded-3xl rotate-[30deg] top-40 -left-2/4"
-    ></div>
-    <div
-      class="bg-orange-200 shadow-lg h-[25rem] absolute w-full rounded-3xl rotate-[40deg] top-40 -left-2/4"
-    ></div>
-  </div>
+  <div></div>
 </template>

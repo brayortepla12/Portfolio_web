@@ -1,16 +1,11 @@
 <script setup>
-/* import BaseIlustration from "./components/BaseIlustration.vue"; */
-
 import BaseNavBar from './components/BaseNavBar.vue'
 import BaseMain from './components/BaseMain.vue'
-/* import HelloWorld from './components/HelloWorld.vue' */
 </script>
 
 <template>
-  <!--   <BaseIlustration></BaseIlustration> -->
-    <BaseNavBar />
-    <BaseMain />
-  <!--  <HelloWorld /> -->
+  <BaseNavBar />
+  <BaseMain />
 </template>
 
 <style scoped>

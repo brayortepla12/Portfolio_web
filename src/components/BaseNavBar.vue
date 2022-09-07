@@ -6,7 +6,7 @@ const menuToggle = () => {
 } */
 </script>
 
-<template class="relative">
+<template>
   <nav class="container max-w-full mx-auto p-2 shadow-md">
     <div
       class="max-w-7xl mx-auto flex justify-between md:justify-start items-center px-6"

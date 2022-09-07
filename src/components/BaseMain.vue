@@ -5,15 +5,13 @@
     <section
       class="max-w-7xl mx-auto md:flex md:justify-center md:items-center"
     >
-      <div class="px-10 text-black relative z-50 md:max-w-[36rem]">
+      <div class="px-10 text-black md:max-w-[36rem]">
         <div class="relative sm:max-w-[28rem] max-w-[22rem]">
-          <h1
-            class="relative z-10 text-5xl sm:text-6xl font-bold text-start mb-10 md:mb-16"
-          >
+          <h1 class="text-5xl sm:text-6xl font-bold text-start mb-10 md:mb-16">
             Hi, I Am Richard kiram
           </h1>
           <spam
-            class="z-0 absolute top-[5.2rem] md:top-[6.5rem] md:h-4 h-[.70rem] w-5/6 bg-[#FFD14B] block"
+            class="absolute top-[5.2rem] md:top-[6.5rem] md:h-4 h-[.70rem] w-5/6 bg-[#FFD14B] block"
           ></spam>
         </div>
 
@@ -60,7 +58,7 @@
           alt=""
         />
         <div
-          class="absolute -z-20 -top-20 right-10 w-4/12 bg-slate-500 rounded-full border-4 border-gray-600"
+          class="absolute -top-20 right-10 w-4/12 bg-slate-500 rounded-full border-4 border-gray-600"
         >
           <img
             class="w-full"
@@ -68,6 +66,38 @@
             alt=""
           />
         </div>
+      </div>
+    </section>
+    <section class="max-w-7xl mx-auto mt-10">
+      <div class="text-black px-10 py-10 bg-slate-300">
+        <nav>
+          <ol class="flex justify-between items-center gap-10">
+            <li class="w-24">
+              <img src="../assets/picture/1200px-Laravel.svg.png" alt="" />
+            </li>
+            <li class="w-24">
+              <img
+                src="../assets/picture/1200px-HTML5_logo_and_wordmark.svg.png"
+                alt=""
+              />
+            </li>
+            <li class="w-24">
+              <img
+                src="../assets/picture/1200px-Vue.js_Logo_2.svg.png"
+                alt=""
+              />
+            </li>
+            <li class="w-24">
+              <img src="../assets/picture/121-css3-512.webp" alt="" />
+            </li>
+            <li class="w-24">
+              <img src="../assets/picture/javascript-logo-escudo.png" alt="" />
+            </li>
+            <li class="w-28">
+              <img src="../assets/picture/Tailwind_CSS_Logo.svg.png" alt="" />
+            </li>
+          </ol>
+        </nav>
       </div>
     </section>
     <section class="max-w-7xl mx-auto mt-10">

@@ -9,7 +9,7 @@
 }
 
 ul > li > a {
-  @apply text-gray-900 font-medium hover:text-gray-500 text-base;
+  @apply text-[#D9CF4A] font-medium hover:text-[#F2F2F2] text-base;
 }
 
 .my-auto {
@@ -25,7 +25,7 @@ ul > li > a {
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #ffffff;
+  background-color: #2B3840;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

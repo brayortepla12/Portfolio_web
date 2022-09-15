@@ -7,11 +7,11 @@ const menuToggle = () => {
 </script>
 
 <template>
-  <nav class="container max-w-full mx-auto p-2 shadow-md">
+  <nav class="container max-w-full mx-auto px-2 py-5">
     <div
       class="max-w-7xl mx-auto flex justify-between md:justify-start items-center px-6"
     >
-      <div class="w-14 h-14 md:w-12 md:h-12 bg-[#FFD14B] rounded-full"></div>
+      <div class="w-14 h-14 md:w-12 md:h-12 bg-[#D9CF4A] rounded-full"></div>
       <button class="p-1 bg-white md:hidden">
         <font-awesome-icon
           class="text-black"
@@ -20,7 +20,7 @@ const menuToggle = () => {
         />
       </button>
       <nav class="hidden md:block grow">
-        <ul class="flex justify-center items-center gap-10">
+        <ul class="flex justify-end items-center gap-10">
           <li>
             <a href="#">Opcion uno</a>
           </li>

@@ -1,7 +1,7 @@
 <template>
-  <ul class="absolute top-0 right-0 w-1/2 h-[40%] truncate">
+  <ul class="relative w-full h-10 truncate">
     <li
-      class="absolute block w-5 h-5 rounded-lg animate-spin-slow -mb-36 odd:left-1/4 odd:top-full odd:w-8 odd:h-8 animation-delay-1000 animation-duration-2000"
+      class="absolute block w-16 h-16 rounded-lg animate-spin-slow -mb-36 odd:left-1/4 odd:top-full odd:w-8 odd:h-8 animation-delay-1000 animation-duration-2000"
     >
       <img
         class="w-6"

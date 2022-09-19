@@ -7,7 +7,7 @@ const menuToggle = () => {
 </script>
 
 <template>
-  <nav class="container max-w-full mx-auto px-2 py-5">
+  <nav class="container max-w-full mx-auto py-5">
     <div
       class="max-w-7xl mx-auto flex justify-between md:justify-start items-center px-6"
     >

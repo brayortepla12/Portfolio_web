@@ -9,7 +9,14 @@
 }
 
 ul > li > a {
-  @apply text-[#D9CF4A] font-medium hover:text-[#F2F2F2] text-base;
+  @apply text-[#F2F2F2] font-medium hover:text-[#D9CF4A] text-lg;
+}
+
+
+
+.fondo {
+  background-image: url('../src/assets/picture/Beige\ Minimalist\ Neutral\ Company\ Presentation.png');
+  background-repeat: no-repeat;
 }
 
 .my-auto {
@@ -25,13 +32,19 @@ ul > li > a {
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #2B3840;
+  background-color: #2b3840;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+.imgfondo {
+  background-image: url(../src/assets/picture/Beige\ Minimalist\ Neutral\ Company\ Presentation.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 a {

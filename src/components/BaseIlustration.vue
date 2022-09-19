@@ -2,7 +2,7 @@
 
 <template>
   <div class="flex justify-center items-center text-black">
-    <div class="px-2 py-2 bg-slate-800 rounded-lg relative">
+    <div class="px-2 py-2 neumorphism rounded-lg relative">
       <div class="flex justify-start items-center gap-1">
         <span class="bg-orange-500 p-1 rounded-full"></span>
         <span class="bg-orange-300 p-1 rounded-full"></span>

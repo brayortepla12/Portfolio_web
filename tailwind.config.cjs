@@ -28,7 +28,8 @@ module.exports = {
         10000: '100000ms'
       },
       animation: {
-        'spin-slow': 'animate 0s linear infinite'
+        'spin-slow': 'animate 0s linear infinite',
+        'scrolling': 'scroll 30s linear infinite'
       },
       variants: {
         animationDelay: ['responsive'],
@@ -46,7 +47,15 @@ module.exports = {
             opacity: '0',
             rounded: '50%'
           }
-        }
+        },
+        /* scroll: {
+          '0%': {
+            transform: 'translateX(0)',
+          },
+          '100%': {
+            transform: 'translateX(calc(-200px * 7))',
+          }
+        } */
       }
     }
   },

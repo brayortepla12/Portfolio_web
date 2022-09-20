@@ -21,14 +21,14 @@ const menuToggle = () => {
       </button>
       <nav class="hidden md:block grow">
         <ul class="flex justify-end items-center gap-10">
-          <li>
-            <a href="#">Opcion uno</a>
+          <li >
+            <a class="text-[#D9CF4A]" href="#">Inicio</a>
           </li>
           <li>
-            <a href="#">Opcion dos</a>
+            <a href="#">Habilidades</a>
           </li>
           <li>
-            <a href="#">Opcion tres</a>
+            <a href="#">Proyectos</a>
           </li>
         </ul>
       </nav>

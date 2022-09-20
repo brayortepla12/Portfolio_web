@@ -2,7 +2,7 @@
 <template>
   <section class="container max-w-full mx-auto">
     <div
-      class="max-w-7xl mx-auto md:flex md:justify-center md:items-start pt-20 px-6"
+      class="max-w-7xl mx-auto md:flex md:justify-center md:items-start pt-16 px-6"
     >
       <div class="text-black md:max-w-[40rem]">
         <div class="sm:max-w-[31rem] max-w-[22rem]">
@@ -15,7 +15,6 @@
             class="absolute top-[5.2rem] md:top-[6.5rem] md:h-4 h-[.70rem] w-5/6 bg-[#FFD14B] block"
           ></spam> -->
         </div>
-
         <h1
           class="text-[#D9CF4A] text-xl md:text-3xl font-bold text-start mb-2 md:mb-4"
         >
@@ -30,16 +29,16 @@
         </p>
         <div class="flex justify-start items-center gap-8 mt-5">
           <a class="text-[#F2F2F2] hover:text-[#D9CF4A]" href=""
-            ><font-awesome-icon size="2xl" icon="fa-brands fa-instagram"
+            ><font-awesome-icon size="xl" icon="fa-brands fa-instagram"
           /></a>
           <a href="" class="text-[#F2F2F2] hover:text-[#D9CF4A]"
-            ><font-awesome-icon size="2xl" icon="fa-brands fa-facebook-f"
+            ><font-awesome-icon size="xl" icon="fa-brands fa-facebook-f"
           /></a>
           <a href="" class="text-[#F2F2F2] hover:text-[#D9CF4A]"
-            ><font-awesome-icon size="2xl" icon="fa-brands fa-twitter"
+            ><font-awesome-icon size="xl" icon="fa-brands fa-twitter"
           /></a>
           <a href="" class="text-[#F2F2F2] hover:text-[#D9CF4A]"
-            ><font-awesome-icon size="2xl" icon="fa-brands fa-github"
+            ><font-awesome-icon size="xl" icon="fa-brands fa-github"
           /></a>
         </div>
 

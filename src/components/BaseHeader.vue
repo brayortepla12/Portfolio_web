@@ -4,7 +4,7 @@ import BaseHero from './BaseHero.vue'
 </script>
 <template>
   <section>
-    <header class="imgfondo">
+    <header class="">
       <BaseNavBar></BaseNavBar>
       <BaseHero></BaseHero>
     </header>
